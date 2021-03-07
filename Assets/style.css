@@ -38,6 +38,7 @@ html {
   background-color: firebrick;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .my-picture {
