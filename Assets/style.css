@@ -1,17 +1,19 @@
 html {
   font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
-  background-color: navy;
+  /* background-color: navy; */
   display: flex;
 }
 .title {
-  background-color: coral;
+  font-size: 2rem
+  /* background-color: coral; */
 }
 
 .navigation-bar {
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 .Navigation-bar-links {
   display: flex;
@@ -19,18 +21,24 @@ html {
 }
 
 .about-me {
-  background-color: darkolivegreen;
+  /* background-color: darkolivegreen; */
   list-style-type: none;
+  border: solid red;
+  font-size: 2rem;
 }
 
 .my-projects {
-  background-color: darkviolet;
+  /* background-color: darkviolet; */
   list-style-type: none;
+  border: solid red;
+  font-size: 2rem;
 }
 
 .contact-me {
-  background-color: lime;
+  /* background-color: lime; */
   list-style-type: none;
+  border: solid red;
+  font-size: 2rem;
 }
 
 /*Main information on page*/
@@ -38,20 +46,35 @@ html {
   background-color: firebrick;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* position:relative */
+  /* justify-content: space-between; */
 }
 
-.my-picture {
-  background-color: rgb(76, 76, 141);
+.my-photo-container {
+  /* position:absolute */
+}
+
+.my-photo {
+  width: 20rem;
+}
+
+.information {
+  background-color: darkorange;
+  display: flex;
+  flex-wrap:wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  
 }
 
 .about-me__info {
-  background-color: rgb(21, 199, 60);
+  /* background-color: rgb(21, 199, 60); */
+  
 }
 
 .contact-me__details {
-  background-color: rgb(188, 228, 47);
-}
+  /* background-color: rgb(188, 228, 47); */
+  
 
 .project-one-container {
 }
