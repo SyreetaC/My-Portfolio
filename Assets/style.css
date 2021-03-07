@@ -1,30 +1,56 @@
 html {
   font-size: 10px;
 }
-.title {
+
+.header {
+  background-color: navy;
+  display: flex;
 }
+.title {
+  background-color: coral;
+}
+
 .Navigation-bar {
+  background-color: cyan;
+  display: flex;
 }
 
 .about-me {
+  background-color: darkolivegreen;
+  list-style-type: none;
 }
 
 .my-projects {
+  background-color: darkviolet;
+  list-style-type: none;
 }
 
 .contact-me {
+  background-color: lime;
+  list-style-type: none;
+}
+
+.main-container {
+  background-color: firebrick;
 }
 
 .photo {
+  background-color: mediumblue;
 }
 
 .about-me__info {
+  background-color: mediumvioletred;
 }
 
 .contact-me__details {
 }
 
+.project-one-container {
+}
 .project-one {
+}
+
+.projects-container {
 }
 
 .project-two {
