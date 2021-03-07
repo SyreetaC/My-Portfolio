@@ -10,8 +10,10 @@ html {
   background-color: coral;
 }
 
-.Navigation-bar {
+.navigation-bar {
   background-color: cyan;
+}
+.Navigation-bar-links {
   display: flex;
 }
 
