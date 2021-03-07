@@ -43,9 +43,9 @@ html {
 
 /*Main information on page*/
 .main-container {
-  background-color: firebrick;
+  /* background-color: firebrick; */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* position:relative */
   /* justify-content: space-between; */
 }
@@ -59,9 +59,10 @@ html {
 }
 
 .information {
-  background-color: darkorange;
+  /* background-color: darkorange; */
   display: flex;
   flex-wrap:wrap;
+  flex-shrink: 1; /*shrinks the information if the screen becomes too small*/
   width: 100%;
   justify-content: space-evenly;
   
