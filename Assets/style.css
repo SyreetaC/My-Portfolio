@@ -15,6 +15,7 @@ html {
 }
 .Navigation-bar-links {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about-me {
@@ -32,19 +33,23 @@ html {
   list-style-type: none;
 }
 
+/*Main information on page*/
 .main-container {
   background-color: firebrick;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.photo {
-  background-color: mediumblue;
+.my-picture {
+  background-color: rgb(76, 76, 141);
 }
 
 .about-me__info {
-  background-color: mediumvioletred;
+  background-color: rgb(21, 199, 60);
 }
 
 .contact-me__details {
+  background-color: rgb(188, 228, 47);
 }
 
 .project-one-container {
