@@ -2,13 +2,14 @@ html {
   background-color: rgb(58, 57, 57);
   color: rgb(235, 225, 225);
   font-size: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .hero {
   max-width: 100%;
   max-height: 10%;
-  opacity: 0.9; 
+  opacity: 0.9;
 }
 
 .header {
@@ -21,13 +22,11 @@ html {
 }
 
 .Navigation-bar-links {
-  
   display: flex;
   flex-wrap: wrap;
 }
 
 .about-me {
-
   list-style-type: none;
   border-right: solid blanchedalmond;
   font-size: 3rem;
@@ -37,7 +36,6 @@ html {
 }
 
 .my-projects {
-
   list-style-type: none;
   border-right: solid blanchedalmond;
   font-size: 3rem;
@@ -47,7 +45,6 @@ html {
 }
 
 .contact-me {
-  
   list-style-type: none;
   border-right: solid blanchedalmond;
   font-size: 3rem;
@@ -56,14 +53,13 @@ html {
   justify-content: center;
 }
 
-
 /*Main information on page*/
 .main-container {
   display: flex;
 }
 
 .my-photo-container {
- border-radius: 2rem;
+  padding: 3rem;
 }
 
 .my-photo {
@@ -73,28 +69,32 @@ html {
 }
 
 .information {
-  /* background-color: darkorange; */
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   flex-shrink: 1; /*shrinks the information if the screen becomes too small*/
   width: 100%;
-  justify-content: space-evenly;
-  
 }
 
 .about-me__info {
   width: 50%;
-  /* background-color: rgb(21, 199, 60); */
-  
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.about-me__info h3 {
+  font-size: 2rem;
+}
+
+.contact-me__details h3 {
+  font-size: 2rem;
 }
 
 .contact-me__details {
-  width:50%;
-  /* background-color: rgb(188, 228, 47); */
-  
+  width: 50%;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
 
-.project-one-container{
-
+.project-one-container {
 }
 .project-one {
 }
