@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(44, 42, 42);
+  background-color: rgb(58, 57, 57);
   color: rgb(235, 225, 225);
   font-size: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,8 +8,7 @@ html {
 .hero {
   max-width: 100%;
   max-height: 10%;
-  opacity: 0.9;
-  
+  opacity: 0.9; 
 }
 
 .header {
@@ -21,9 +20,6 @@ html {
   padding: 1rem;
 }
 
-.navigation-bar {
-  justify-content: right;
-}
 .Navigation-bar-links {
   
   display: flex;
@@ -60,25 +56,20 @@ html {
   justify-content: center;
 }
 
-.hero {
-  
-}
 
 /*Main information on page*/
 .main-container {
-  /* background-color: firebrick; */
   display: flex;
-  /* flex-wrap: wrap; */
-  /* position:relative */
-  /* justify-content: space-between; */
 }
 
 .my-photo-container {
-  /* position:absolute */
+ border-radius: 2rem;
 }
 
 .my-photo {
-  width: 20rem;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 20rem;
 }
 
 .information {
@@ -102,7 +93,8 @@ html {
   /* background-color: rgb(188, 228, 47); */
   
 
-.project-one-container {
+.project-one-container{
+
 }
 .project-one {
 }
