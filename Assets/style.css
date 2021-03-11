@@ -76,20 +76,18 @@ html {
 }
 
 .about-me__info {
-  width: 50%;
   font-size: 2rem;
   margin-left: 1rem;
 }
 .about-me__info h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .contact-me__details h3 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .contact-me__details {
-  width: 50%;
   font-size: 2rem;
   margin-left: 1rem;
 }
