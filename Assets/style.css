@@ -93,8 +93,12 @@ html {
 }
 
 .project-one-container {
+  max-width: 100%;
+  /* display: flex; */
 }
 .project-one {
+  width: 80%;
+  opacity: 0.5;
 }
 
 .projects-container {
