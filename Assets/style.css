@@ -26,6 +26,10 @@ html {
   flex-wrap: wrap;
 }
 
+.navbar-link {
+  text-decoration: none;
+}
+
 .about-me {
   list-style-type: none;
   border-right: solid blanchedalmond;
@@ -92,26 +96,38 @@ html {
   margin-left: 1rem;
 }
 
-.project-one-container {
-  max-width: 100%;
-  max-height: 25%;
-
-  /* display: flex; */
-}
-.project-one {
-  display: block;
-  width: 50%;
+.projects {
+  width: 25%;
   opacity: 0.5;
-  align-self: center;
+}
+.project-one-container {
+  /* max-width: 100%;
+  max-height: 10%; */
+}
+
+.button-one {
+}
+
+.project-one {
+  opacity: 0.5;
+  max-width: fit-content;
 }
 
 .projects-container {
+  /* max-width: 25%;
+  max-height: 2rem; */
 }
 
 .project-two {
 }
+.button-two {
+}
 
 .project-three {
 }
+.button-three {
+}
 .project-four {
+}
+.button-four {
 }
