@@ -117,6 +117,8 @@ html {
 .project-one {
   position: relative;
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-one-img {
