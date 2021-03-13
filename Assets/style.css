@@ -99,6 +99,7 @@ html {
 .project-one-container {
   max-width: 100%;
   max-height: 10%;
+  display: flex;
 }
 
 .button-one {
@@ -113,6 +114,7 @@ html {
   border-radius: 6px;
   display: inline-block;
   font-size: 2rem;
+  flex-shrink: 4;
 }
 
 .project-one {
@@ -120,6 +122,7 @@ html {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  flex-wrap: wrap;
 }
 
 .project-one-img {
@@ -128,11 +131,12 @@ html {
   height: auto;
   padding: 4rem;
   padding-left: 6rem;
+  flex-wrap: wrap;
 }
 
 .projects-container {
   display: flex;
-  flex-wrap: row;
+  flex-shrink: inherit;
   justify-content: space-around;
 }
 
@@ -140,10 +144,12 @@ html {
   width: 80%;
   justify-content: space-around;
   padding-left: 5rem;
+  flex-wrap: row;
 }
 
 .project-cards {
   max-width: 100%;
+  flex-wrap: row;
 }
 
 .button-two {
@@ -185,4 +191,41 @@ html {
   display: inline-block;
   font-size: 3rem;
   margin-left: 12rem;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  html {
+    width: 100%;
+  }
+  .button-one {
+    width: 50%;
+    font-size: 100%;
+  }
+  .button-two,
+  .button-three,
+  .button-four {
+    width: 10%;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  html {
+    width: 75%;
+  }
+  .hero {
+    padding-left: 100px;
+  }
+  .button-one {
+    width: 50%;
+    height: 10%;
+    font-size: 75%;
+  }
+  .button-two,
+  .button-three,
+  .button-four {
+    width: 20%;
+    font-size: 1rem;
+    display: none;
+  }
 }
