@@ -197,6 +197,10 @@ html {
   html {
     width: 100%;
   }
+  .information {
+    flex-wrap: wrap;
+    display: inline;
+  }
   .button-one {
     width: 50%;
     font-size: 100%;
@@ -205,21 +209,26 @@ html {
   .button-three,
   .button-four {
     width: 10%;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 480px) {
+@media screen and (max-width: 767px) and (min-width: 480px) {
   html {
     width: 75%;
+  }
+  .information {
+    flex-wrap: wrap;
+    display: inline;
   }
   .hero {
     padding-left: 100px;
   }
   .button-one {
-    width: 50%;
-    height: 10%;
-    font-size: 75%;
+    width: 60%;
+    max-height: 10%;
+    top: 40%;
+    font-size: 100%;
   }
   .button-two,
   .button-three,
