@@ -21,11 +21,13 @@ html {
   padding: 1rem;
 }
 
+/* Flex property added to ensure the page is responsive. */
 .Navigation-bar-links {
   display: flex;
   flex-wrap: wrap;
 }
 
+/* Navigation bar links  */
 .links {
   text-decoration: none;
 }
@@ -193,6 +195,7 @@ html {
   margin-left: 12rem;
 }
 
+/* Media queries */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   html {
     width: 100%;
