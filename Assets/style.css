@@ -134,6 +134,7 @@ html {
   padding: 4rem;
   padding-left: 6rem;
   flex-wrap: wrap;
+  opacity: 0.9;
 }
 
 .projects-container {
@@ -147,6 +148,7 @@ html {
   justify-content: space-around;
   padding-left: 5rem;
   flex-wrap: row;
+  opacity: 0.9;
 }
 
 .project-cards {
