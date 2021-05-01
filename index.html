@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
    
     <title>Syreeta Cummings | Portfolio</title>
   </head>
@@ -20,7 +21,7 @@
         <div class="title">
           <h1>Syreeta Cummings</h1>
         </div>
-        <nav>
+        <nav class="navbar navbar-dark">
           <!--functioning navigation bar with 3 links-->
           <ul class="Navigation-bar-links">
             <div class="about-me">
@@ -59,44 +60,55 @@
             alt="Portfolio-photo"
           />
         </div>
-        <div class="information">
-          <section id="about-me__info" class="about-me__info">
-            <h3>About me</h3>
-            <p>
-              Welcome to my portfolio! I’m Syreeta, and I’m currently
-              undertaking a full-stack web development coding bootcamp with the
-              University of Birmingham.
-            </p>
-            <p>
-              After spending the last 7 years working as a primary school
-              teacher, the recent pandemic has led to some soul-searching and I
-              have decided to begin a career change and move into the world of
-              software engineering!
-            </p>
-            <p>
-              I’m hard-working, driven and have excellent communication skills.
-              I am motivated by the challenge coding presents and I’m looking
-              forward to transferring my skillset and developing it further.
-            </p>
-            <p>
-              I am currently proficient in HTML and CSS, as you will see when
-              looking at ‘My Projects’.
-            </p>
-          </section>
-        </div>
 
-        <section id="contact-me__details" class="contact-me__details">
-          <!--links to each website provided-->
-          <h3>Contact details</h3>
-          <div class="contact-Linkedin">
-            <a href="https://www.linkedin.com/in/syreeta-c-ba8b6b202/"
-              >Linkedin</a
-            >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-9">
+              <div class="information">
+                <section id="about-me__info" class="about-me__info">
+                  <h3>About me</h3>
+                  <p>
+                    Welcome to my portfolio! I’m Syreeta, and I’m currently
+                    undertaking a full-stack web development coding bootcamp with the
+                    University of Birmingham.
+                  </p>
+                  <p>
+                    After spending the last 7 years working as a primary school
+                    teacher, the recent pandemic has led to some soul-searching and I
+                    have decided to begin a career change and move into the world of
+                    software engineering!
+                  </p>
+                  <p>
+                    I’m hard-working, driven and have excellent communication skills.
+                    I am motivated by the challenge coding presents and I’m looking
+                    forward to transferring my skillset and developing it further.
+                  </p>
+                  <p>
+                    I am currently proficient in HTML and CSS, as you will see when
+                    looking at ‘My Projects’.
+                  </p>
+                </section>
+              </div>
+            </div>
+            <div class="col-3">
+              <section id="contact-me__details" class="contact-me__details">
+                <!--links to each website provided-->
+                <h3>Contact details</h3>
+                <div class="contact-Linkedin">
+                  <a href="https://www.linkedin.com/in/syreeta-c-ba8b6b202/"
+                    >Linkedin</a
+                  >
+                </div>
+                <div class="contact-GitHub">
+                  <a href="https://github.com/SyreetaC"> GitHub</a>
+                </div>
+              </section>
+            </div>
           </div>
-          <div class="contact-GitHub">
-            <a href="https://github.com/SyreetaC"> GitHub</a>
-          </div>
-        </section>
+
+        
+
+        
       </div>
     </main>
     <section>
@@ -116,12 +128,12 @@
             <div class="button-container">
             <a
               href="https://syreetac.github.io/geo-link/"
-              class="btn btn-primary links"
+              class="btn btn-outline-secondary links"
               >Link to deployed application</a
             >
             <a
             href="https://github.com/SyreetaC/geo-link"
-            class="btn btn-primary links"
+            class="btn btn-outline-secondary links"
             >GitHub repository link</a
           ></div>
             </div>
@@ -146,7 +158,7 @@
           </div>
         
           <div class="card-body">
-            <a href="https://syreetac.github.io/Password-generator/" class="btn btn-primary">Visit me!</a>
+            <a href="https://syreetac.github.io/Password-generator/" class="btn btn-outline-secondary links">Visit me!</a>
           </div>
         </div>
 
@@ -162,7 +174,7 @@
             </div>
           
             <div class="card-body">
-              <a href="https://syreetac.github.io/code-quiz/" class="btn btn-primary">Visit me!</a>
+              <a href="https://syreetac.github.io/code-quiz/" class="btn btn-outline-secondary links">Visit me!</a>
             </div>
           </div>
 
@@ -178,7 +190,7 @@
               </div>
             
               <div class="card-body">
-                <a href="https://syreetac.github.io/weather-dashboard/" class="btn btn-primary">Visit me!</a>
+                <a href="https://syreetac.github.io/weather-dashboard/" class="btn btn-outline-secondary links">Visit me!</a>
               </div>
             </div>
             </div>
@@ -187,10 +199,5 @@
       </div>
        
     </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
