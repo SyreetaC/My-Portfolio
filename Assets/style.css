@@ -103,7 +103,9 @@
   font-size: 2rem;
   margin-left: 1rem;
 }
-
+.projects-section {
+  background-color: rgb(58, 57, 57);
+}
 .project-one-container {
   max-width: 100%;
   max-height: 10%;
