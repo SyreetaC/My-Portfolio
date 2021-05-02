@@ -11,13 +11,13 @@ https://github.com/SyreetaC/My-Portfolio
 ## UPDATED Screenshots
 
 The following images show how my portfolio looks in the browser:
-![Screenshot-MyPortfolio](<.\assets/images/Screenshot%20(26).png>)
+![Screenshot-MyPortfolio](<assets/images/Screenshot%20(26).png>)
 
-![Screenshot-MyPortfolio](<.\assets/images/Screenshot%20(27).png>)
+![Screenshot-MyPortfolio](<assets/images/Screenshot%20(27).png>)
 
-![Screenshot-MyPortfolio](<.\assets/images/Screenshot%20(28).png>)
+![Screenshot-MyPortfolio](<assets/images/Screenshot%20(28).png>)
 
-![Screenshot-MyPortfolio](<.\assets/images/Screenshot%20(29).png>)
+![Screenshot-MyPortfolio](<assets/images/Screenshot%20(29).png>)
 
 ## Description
 
