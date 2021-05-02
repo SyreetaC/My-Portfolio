@@ -8,14 +8,16 @@ https://syreetac.github.io/My-Portfolio/
 
 https://github.com/SyreetaC/My-Portfolio
 
-## Screenshots
+## UPDATED Screenshots
 
 The following images show how my portfolio looks in the browser:
-![Screenshot-MyPortfolio](<./Assets/Images/Screenshot%20(10).png>)
+![Screenshot-MyPortfolio](<./assets/images/Screenshot%20(26).png>)
 
-![Screenshot-MyPortfolio](<Assets/Images/Screenshot%20(11).png>)
+![Screenshot-MyPortfolio](<./assets/images/Screenshot%20(27).png>)
 
-![Screenshot-MyPortfolio](<Assets/Images/Screenshot%20(12).png>)
+![Screenshot-MyPortfolio](<./assets/images/Screenshot%20(28).png>)
+
+![Screenshot-MyPortfolio](<./assets/images/Screenshot%20(29).png>)
 
 ## Description
 
