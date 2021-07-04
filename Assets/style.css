@@ -100,12 +100,12 @@
 .projects-section {
   background-color: rgb(58, 57, 57);
 }
-.project-one-container {
+/* .project-one-container {
   max-width: 100%;
   max-height: 10%;
   display: flex;
   padding-bottom: 2rem;
-}
+} */
 
 .project-one {
   position: relative;
@@ -143,50 +143,3 @@
   max-width: 100%;
   flex-wrap: row;
 }
-
-/* Media queries */
-/* @media screen and (max-width: 1024px) and (min-width: 768px) {
-  html {
-    width: 100%;
-  }
-  .information {
-    flex-wrap: wrap;
-    display: inline;
-  }
-  .button-one {
-    width: 50%;
-    font-size: 100%;
-  }
-  .button-two,
-  .button-three,
-  .button-four {
-    width: 10%;
-    font-size: 1rem;
-  }
-} */
-
-/* @media screen and (max-width: 767px) and (min-width: 480px) {
-  html {
-    width: 75%;
-  }
-  .information {
-    flex-wrap: wrap;
-    display: inline;
-  }
-  .hero {
-    padding-left: 100px;
-  }
-  .button-one {
-    width: 60%;
-    max-height: 10%;
-    top: 40%;
-    font-size: 100%;
-  }
-  .button-two,
-  .button-three,
-  .button-four {
-    width: 20%;
-    font-size: 1rem;
-    display: none;
-  }
-} */
