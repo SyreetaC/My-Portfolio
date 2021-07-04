@@ -6,24 +6,15 @@
 
 .header {
   text-align: center;
-  display: flex;
   background-color: rgb(58, 57, 57);
   color: rgb(235, 225, 225);
   font-size: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.title {
-  font-size: 3rem;
-  margin: 1rem;
-  padding: 1rem;
-  text-align: center;
-}
 
 /* Flex property added to ensure the page is responsive. */
 .Navigation-bar-links {
-  display: flex;
-
   font-size: 5px;
 }
 
@@ -154,7 +145,7 @@
 }
 
 /* Media queries */
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+/* @media screen and (max-width: 1024px) and (min-width: 768px) {
   html {
     width: 100%;
   }
@@ -172,9 +163,9 @@
     width: 10%;
     font-size: 1rem;
   }
-}
+} */
 
-@media screen and (max-width: 767px) and (min-width: 480px) {
+/* @media screen and (max-width: 767px) and (min-width: 480px) {
   html {
     width: 75%;
   }
@@ -198,4 +189,4 @@
     font-size: 1rem;
     display: none;
   }
-}
+} */
